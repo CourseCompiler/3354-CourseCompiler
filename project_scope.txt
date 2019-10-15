@@ -9,7 +9,7 @@
     1.1.3 Constraint Selection View: Select schedule restrictions (breaks, etc)
       1.1.3.1 Edit constraints
       1.1.3.2 Switch back to main menu
-    1.1.4 Schedule Detail View: View generated schedules
+    1.1.4 Generate Schedule View: Generate and view schedules
       1.1.4.1 Favorite specific schedules
       1.1.4.2 Switch back to main menu
   1.2 Schedule Generation (Server-Side) (Algorithm rather than requirement list)
