@@ -1,32 +1,25 @@
 1. Course Scheduling Software
   1.1 Views (Client-Side)
     1.1.1 Main Menu View: Select a specific view, submit generation query
-      1.1.1.1 Switch to 1.1.2
-      1.1.1.2 Switch to 1.1.3
-      1.1.1.3 Switch to 1.1.4
-      1.1.1.4 (Optional) Export schedule as list of class codes (five digit codes in UTDs case)
+      1.1.1.1 Switch to one of the other views
+      1.1.1.2 (Optional) Export schedule as list of class codes (five digit codes in UTDs case)
     1.1.2 Class Selection View
-      1.1.2.1 Select desired classes
-      1.1.2.2 Deselect already selected classes
-      1.1.2.4 Switch back to 1.1.1
+      1.1.2.1 Select/remove desired classes
+      1.1.2.2 Switch back to main menu
     1.1.3 Constraint Selection View: Select schedule restrictions (breaks, etc)
-      1.1.3.1 Select constraints
-      1.1.3.2 Modify constraints
-      1.1.3.3 Remove constraints
-      1.1.3.4 Switch back to 1.1.1
+      1.1.3.1 Edit constraints
+      1.1.3.2 Switch back to main menu
     1.1.4 Schedule Detail View: View generated schedules
       1.1.4.1 Favorite specific schedules
-      1.1.4.2 Switch back to 1.1.1
-  1.2 Schedule Generation (Server-Side)
+      1.1.4.2 Switch back to main menu
+  1.2 Schedule Generation (Server-Side) (Algorithm rather than requirement list)
     1.2.1 Take class list, constraint list from user's query
     1.2.2 Get section list from DB
     1.2.3 Generate schedules that meet constraints
     1.2.4 Return all valid schedules to user
     1.2.5 (Optional) Sort/Rank generated schedules
   1.3 Constraint Types
-    1.3.1 Inflexible break
-      1.3.1.1 Certain times
-      1.3.1.2 Full days
+    1.3.1 Inflexible break: Schedule no classes between two given times
     1.3.2 Flexible break: Between time A and time B, keep a solid chunk of free time that is at least C hours/minutes/etc long
     1.3.3 Inter-class breaks: Do not schedule a class that starts within X minutes of another class ending
     1.3.4 (Optional) Blacklist certain professors
