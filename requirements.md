@@ -1,4 +1,4 @@
-Functional requirements:
+### Functional requirements:
 1. A user shall be able to select a list of courses, and remove selected courses from said list.
 2. A user shall be able to create a list of constraints that generated schedules must abide by, and remove created constraints from said list.
     1. An "Inter-Class Break" shall be offered as a type of constraint, where the user specifies a duration<sup>[a]</sup> of time that must be present between the end of one class and the beginning of another class.
@@ -12,7 +12,7 @@ Functional requirements:
 <sup>[a]</sup> In this context, "duration" is referring to a length of time, e.g., `15 minutes` or `1 hour`.  
 <sup>[b]</sup> In this context, "two times" is referring to a starting time and ending time. These times consist of a time-of-day and at least one day-of-week, e.g., `Tu 8am` or `MWF 1:30pm`.
 
-Non-functional requirements:  
+### Non-functional requirements:  
 * Product requirements:
     * Usability requirement - The client-side website shall be intuitive enough to be used by users who have recieved minimal training. Training shall be provided within a help section linked to by the client-side website containing both text-based and video-based usage walkthroughs.
     * Efficiency requirements:
